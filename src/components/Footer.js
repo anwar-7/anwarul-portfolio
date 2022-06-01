@@ -1,0 +1,25 @@
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import SocialMedia from '../components/SocialMedia';
+
+function Footer() {
+  let date = new Date();
+  let year = date.getFullYear();
+  return (
+    <Container fluid className="footer bg-primary">
+      <Row>
+        <Col md="4" className="footer-copywright">
+          <h3>Developed by Anwarul Islam</h3>
+        </Col>
+        <Col md="4" className="footer-copywright">
+          <h3>Copyright © {year} </h3>
+        </Col>
+        <Col md="4" className="footer-body">
+          <SocialMedia />
+        </Col>
+      </Row>
+    </Container>
+  );
+}
+
+export default Footer;
