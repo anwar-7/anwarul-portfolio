@@ -6,7 +6,7 @@ function Footer() {
   let date = new Date();
   let year = date.getFullYear();
   return (
-    <Container fluid className="footer bg-primary">
+    <Container fluid className="footer bg-primary mt-3">
       <Row>
         <Col md="4" className="footer-copywright">
           <h3>Developed by Anwarul Islam</h3>
