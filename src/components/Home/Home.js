@@ -3,6 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import myImg from '../../Assets/anwar.JPG';
 import SocialMedia from '../SocialMedia';
 import TypeWriter from './TypeWriter';
+import Projects from '../Projects/Projects';
 
 function Home() {
   return (
@@ -41,6 +42,7 @@ function Home() {
           </Row>
         </Container>
       </Container>
+      <Projects></Projects>
       <Container fluid className="home-about-section" id="about">
         <Container>
           <Row>
