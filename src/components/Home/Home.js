@@ -42,6 +42,7 @@ function Home() {
           </Row>
         </Container>
       </Container>
+      {/* project is here */}
       <Projects></Projects>
       <Container fluid className="home-about-section" id="about">
         <Container>
