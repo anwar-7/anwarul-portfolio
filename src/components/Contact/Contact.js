@@ -30,7 +30,10 @@ const Contact = (e) => {
   };
 
   return (
-    <div className="w-50 mx-auto mt-5 pt-5 mb-5 pb-5">
+    <div
+      className="w-50 mx-auto mt-5 pt-5 mb-5 pb-5"
+      style={{ height: '100vh' }}
+    >
       <h1>Contact Me</h1>
       {/* <form ref={form} onSubmit={sendEmail}>
         <label>Name</label>
